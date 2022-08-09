@@ -114,7 +114,7 @@
                             android:isIndicator="true"
                             android:numStars="5"
                             android:stepSize="0.5"
-                            android:visibility="visible" />
+                            android:visibility="gone" />
 
                     </LinearLayout>
 
