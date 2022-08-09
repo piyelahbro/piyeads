@@ -2,7 +2,7 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
-    android:background="@drawable/elipse_transparan"
+    android:background="@drawable/bg_native"
     android:layout_height="match_parent">
 
     <LinearLayout
@@ -72,10 +72,10 @@
                             android:layout_height="wrap_content"
                             android:layout_marginLeft="5dp"
                             android:layout_marginTop="2dp"
-                            android:background="@drawable/stroke"
+                            android:background="@drawable/bg_button"
                             android:gravity="center"
                             android:text="Ads"
-                            android:textColor="#000000"
+                             android:textColor="@color/native_textcolor"
                             android:textSize="14sp" />
 
                         <TextView
@@ -86,7 +86,7 @@
                             android:lines="1"
                             android:text="Reskin Aliendroid"
                             android:textAlignment="center"
-                            android:textColor="#000000"
+                             android:textColor="@color/native_textcolor"
                             android:textSize="15sp"
                             android:textStyle="bold" />
 
@@ -102,7 +102,7 @@
                             android:gravity="center"
                             android:text="1st - The Big Marketplace Source Code for Monetize Mobile Application on Indonesia"
                             android:textAlignment="center"
-                            android:textColor="#000000"
+                            android:textColor="@color/native_textcolor"
                             android:textSize="15sp" />
 
                         <RatingBar
@@ -129,9 +129,9 @@
                     android:layout_marginTop="5dp"
                     android:layout_marginRight="10dp"
                     android:layout_marginBottom="5dp"
-                    android:background="@drawable/stroke2"
+                    android:background="@drawable/bg_button"
                     android:gravity="center"
-                    android:textColor="#3F51B5"
+                    android:textColor="@color/native_textcolor"
                     android:textSize="15sp"
                     tools:text="Install" />
             </LinearLayout>

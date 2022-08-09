@@ -35,9 +35,9 @@ public class MainActivity extends AppCompatActivity {
         AliendroidNative.SmallNativeAdmobNonStroke(this,layAds,"APPLOVIN-Mx","ca-app-pub-3940256099942544/2247696110","8d8bffb4fc9bc946",
                 "","","","","");
 
-        AliendroidNative.SmallNativeAdmobRectangle(this,layAds2,"APPLOVIN-Mx","xxca-app-pub-3940256099942544/2247696110","8d8bffb4fc9bc946",
+        AliendroidNative.SmallNativeAdmobRectangle(this,layAds2,"APPLOVIN-M","xxca-app-pub-3940256099942544/2247696110","8d8bffb4fc9bc946",
                 "","","","","");
-        AliendroidNative.SmallNativeAdmobWhite(this,layAds3,"APPLOVIN-Mx","ca-app-pub-3940256099942544/2247696110","8d8bffb4fc9bc946",
+        AliendroidNative.SmallNativeAdmobWhite(this,layAds3,"APPLOVIN-M","xxca-app-pub-3940256099942544/2247696110","8d8bffb4fc9bc946",
                 "","","","","");
         AliendroidNative.SmallNativeAdmobGuide(this,layAds7,"APPLOVIN-Mx","ca-app-pub-3940256099942544/2247696110","8d8bffb4fc9bc946",
                 "","","","","");

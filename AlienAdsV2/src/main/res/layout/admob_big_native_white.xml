@@ -1,6 +1,6 @@
 <com.google.android.gms.ads.nativead.NativeAdView xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
-    android:background="@drawable/elipse_transparan"
+    android:background="#fff"
     android:layout_height="wrap_content">
 
     <LinearLayout
@@ -49,7 +49,7 @@
                     android:paddingLeft="5dp"
                     android:paddingEnd="5dp"
                     android:paddingRight="5dp"
-                    android:textColor="@color/native_title"
+                     android:textColor="@color/native_textcolor"
                     android:textSize="12sp" />
 
                 <TextView
@@ -60,7 +60,7 @@
                     android:paddingLeft="5dp"
                     android:paddingEnd="5dp"
                     android:paddingRight="5dp"
-                    android:textColor="@color/native_title"
+                     android:textColor="@color/native_textcolor"
                     android:textSize="12sp" />
 
             </LinearLayout>
@@ -120,9 +120,9 @@
                         <TextView
                             android:layout_width="28dp"
                             android:layout_height="wrap_content"
-                            android:background="@drawable/stroke"
+                            android:background="@drawable/bg_button"
                             android:gravity="center"
-                            android:text="AD"
+                            android:text="Ads"
                             android:textColor="#000000"
                             android:textSize="12sp" />
 
@@ -133,7 +133,7 @@
                             android:lines="1"
                             android:layout_marginLeft="5dp"
                             android:text="Reskin Aliendroid"
-                            android:textColor="@color/native_title"
+                             android:textColor="@color/native_textcolor"
                             android:textSize="16sp"
                             android:textStyle="bold" />
 
@@ -147,11 +147,11 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_marginEnd="20dp"
-                        android:lines="2"
+                        android:lines="1"
                         android:layout_marginRight="5dp"
                         android:layout_marginBottom="5dp"
                         android:text="1st - The Big Marketplace Source Code for Monetize Mobile Application on Indonesia"
-                        android:textColor="@color/native_description"
+                        android:textColor="@color/native_textcolor"
                         android:textSize="15sp" />
 
                     <RatingBar
@@ -161,8 +161,9 @@
                         android:layout_height="wrap_content"
                         android:isIndicator="true"
                         android:numStars="5"
-                        android:stepSize="0.5"
-                        android:visibility="gone" />
+                        android:visibility="gone"
+                        android:layout_gravity="center"
+                        android:stepSize="0.5" />
 
                 </LinearLayout>
 
@@ -182,12 +183,12 @@
                 android:layout_width="match_parent"
                 android:layout_height="45dp"
                 android:layout_gravity="center"
-                android:background="@drawable/stroke2"
+                android:background="@drawable/bg_button"
                 android:layout_marginLeft="20dp"
                 android:layout_marginRight="20dp"
                 android:gravity="center"
                 android:text="Install"
-                android:textColor="#000000"
+                android:textColor="@color/native_textcolor"
                 android:textSize="16sp" />
         </LinearLayout>
 
